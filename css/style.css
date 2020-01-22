@@ -43,7 +43,6 @@ ul {
     background-color: grey;
     line-height: 45px;
     text-align: center;
-    color: white;
 }
 
 li {
@@ -61,16 +60,15 @@ li {
 aside {
     width: 19%;
     height: 50%;
-    border-radius: 2%;
+    border-radius: 10px;
     float: left;
 }
 
 main {
     width: 60%;
-    height: 25%;
     float: left;
     background-color: white;
-    border-radius: 2%;
+    border-radius: 10px;
 }
 
 h2 {
@@ -94,16 +92,14 @@ i {
 }
 
 .destra {
-    width: 19%;
     height: 99%;
 }
 
 .box {
-    width: 100%;
     height: 32%;
     background-color: white;
     margin: 0 5% 5% 5%;
-    border-radius: 2%;
+    border-radius: 10px;
 }
 
 p {
@@ -115,7 +111,7 @@ footer {
     height: 200px;
     margin: 10px 0;
     background-color: white;
-    border-radius: 2%;
+    border-radius: 10px;
 }
 
 .text {
@@ -167,4 +163,14 @@ hr {
     bottom: 270px;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+ul li strong a {
+    color: white;
+    text-decoration: none;
+}
+
+.sinistra a {
+    color: green;
+    text-decoration: none;
 }
